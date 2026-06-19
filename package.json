@@ -1,7 +1,7 @@
 {
   "name": "cheon-bot",
   "version": "2.0.0",
-  "description": "𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 - by 𝐋𝐎𝐘𝐃",
+  "description": "𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 - by 𝚎𝚖𝚊𝚍",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -13,7 +13,7 @@
     "qr": "node index.js qr",
     "code": "node index.js code"
   },
-  "author": "LOYD",
+  "author": "𝚎𝚖𝚊𝚍",
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
