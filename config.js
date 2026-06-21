@@ -5,7 +5,7 @@ const config = {
     botName:    "𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓",
     botTag:     "@CHEON",
     botVersion: "2.0.0",
-    botDev:     "𝚎𝚖𝚊𝚍",
+    botDev:     "𓆩 𝙀𝙈𝘼𝘿 𓆪",
     devNumber:  "201286687614",
 
     sessions:   "sessions",
@@ -44,12 +44,24 @@ const config = {
         zarfLine:  `~*『✦▬▬▬✦┇• 🪻 •┇✦▬▬▬✦』*~`,
     },
 
-    links: {
-        channel: "https://whatsapp.com/channel/0029Vb6kG3s0AgW2lYD8ad1L",
-        group:   "https://chat.whatsapp.com/DSktEHhJ1c0Bn5zjVC4eBO?mode=gi_t",
-        support: "https://chat.whatsapp.com/KkuYNJrg3qv1JslwoFOTUt?mode=gi_t",
-        github:  "https://github.com/Loydsumer/baileys-speed",
-        dev:     "https://wa.me/4917672339436",
+    links:   {
+          name: 'cta_url',
+          buttonParamsJson: JSON.stringify({
+            display_text: '👑 التواصل مع المطور 1',
+            url: 'https://wa.me/201286687614',
+            merchant_url: 'https://wa.me/201286687614'
+          })
+        },
+        {
+          name: 'cta_url',
+          buttonParamsJson: JSON.stringify({
+            display_text: '👑 التواصل مع المطور 2',
+            url: 'https://wa.me/201156069081',
+            merchant_url: 'https://wa.me/201156069081'
+          })
+        }
+      ],
+
     },
 
     images: {
